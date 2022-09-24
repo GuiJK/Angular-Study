@@ -7,6 +7,11 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentsDataComponent } from './components/parents-data/parents-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
     FirstComponentComponent,
     ParentsDataComponent,
     DirectivesComponent,
-    IfRenderComponent
+    IfRenderComponent,
+    EventosComponent,
+    EmitterComponent,
+    ChangeNumberComponent,
+    ListRenderComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
